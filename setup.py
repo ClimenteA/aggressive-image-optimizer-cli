@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
 
-# python setup.py bdist_wheel sdist
+# Distribute py wheels
+# python3 setup.py bdist_wheel sdist
+# twine check dist/*
 # cd dist
-# twine upload *
+# cat ~/.pypirc (to get token)
+# twine upload * -u __token__ -p pypi-token
 
 
 with open("README.md", "r") as fh:
