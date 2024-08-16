@@ -18,9 +18,9 @@ with open("requirements.txt", "r") as r:
 
 setup(
     name="aggimg",
-    version="0.0.1",
+    version="0.0.2",
     description="Aggressive image optimizer cli!",
-    url="https://github.com/ClimenteA/pyvan",
+    url="https://github.com/ClimenteA/aggressive-image-optimizer-cli",
     author="Climente Alin",
     author_email="climente.alin@gmail.com",
     license="MIT",
